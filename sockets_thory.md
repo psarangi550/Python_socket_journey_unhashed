@@ -12,17 +12,25 @@
 #### **<u>PYTHON COMMAND FOR SOCKET PROGRAMING**
 	
 ```
-<socket obj>=socket.socket() 
+>> <socket obj>=socket.socket() #create socket in both server and                  client  
 #this will create an socket instance
-<socket obj>.bind((<host>,<port>)) 
+
+>> <socket obj>.bind((<host>,<port>)) #binding the host and port in                server.py
 #bind the host number and port
-<socket obj>.send() 
+
+>> <socket obj>.connect((<host>,<port>)) #binding the host and port number         in the client.py file 
+#bind the host number and port
+
+>> <socket obj>.send() #used in the client.py to send info to the server  
 #sending the message using the socket object
-<socket obj>.listen() 
+
+>> <socket obj>.listen() #used in server.py to listen to the connection
 #listening and checking other computer recv or not
-<socket obj>.receive() 
+
+>> <socket obj>.recv() #used in the client.py to receive the connection
 #receiving the socket message and decoding it 
-<socket obj>.close()
+
+>> <socket obj>.close() #closing the socket used in client and server 
 #closing the socket that been created 
 ```
 ##### **DIRECT CONNECTION**

@@ -55,6 +55,14 @@ command line path:-
 
 # run() on background uses the Popen class to execute the sub process
 # os.popen() also uses the Popen class of the subprocess module to #execute the code
+
+#if we are using the Popen class then while reading the output or error we need to use as below
+ex:-
+import subprocess #importing the subprocess module 
+result=subprocess.Popen(<command>,capture_output=True)
+print(result.stdout.read())#here we need to use the read() read output
+print(result.stderr.read())# we need to use read() to read error
+
 ```
 
 **subprocess module has below api befor 3.5v python which valid now also**
