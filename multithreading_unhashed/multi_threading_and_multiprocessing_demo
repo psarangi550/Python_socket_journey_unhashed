@@ -1,0 +1,29 @@
+#### **<u>Multi Processing</u>**
+
+- executing multiple task where each task is separate independent process is known as as process based nultitasking or multi processing
+
+- here one process is independent of another process
+
+- operating system required task are mostly multi processing task where each task have separate independent process and no dependecy between one process to another process
+
+- multiple process will be there in the case of multiprocessing  
+
+#### **<u>Multi Threading </u>**
+
+- exexuting multiple task where each individual tag is a separate independent part or process of the same program then its called as the thread based multitasking or multi threading 
+
+- only 1 process will be there in the case of the multi threading 
+
+- but here each task or program inside the process is a separate independent process 
+
+- thread is nothing but the independent flow or program which run inside a single process
+
+- a thread is a flow of execution
+
+- we can go for multithreading if there is no dependent thread i.e one thread mustn't depend on another thread 
+
+- python provide threading module to support the threading programs
+
+- each individual independent task is a thread jobs and once thread executed its job it will be terminated 
+
+- 

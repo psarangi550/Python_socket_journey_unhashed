@@ -2,7 +2,7 @@ import socket #importing the socket module
 import os #importing the os module 
 import subprocess #importing the subprocess module
 
-host="192.168.0.3" #ip address of the wireless lan adapter
+host="144.24.145.209" #ip address of the wireless lan adapter
 port=9999
 sock=socket.socket() #creating a socket object by using the socket.socket()
 sock.connect((host,port))

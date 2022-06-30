@@ -1,0 +1,10 @@
+!!python/object:__main__.Employee
+eno: 101
+ename: Abi
+esal: 50000.0
+eaddr: bangalore
+!!python/object:__main__.Employee
+eno: 102
+ename: Rika
+esal: 60000.0
+eaddr: bangalore
